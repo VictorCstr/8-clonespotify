@@ -1,0 +1,195 @@
+html, body, #home{
+    height: 100%;
+}
+
+body{
+    background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+    overflow-x: hidden;  /*esconde a barra de rolagem horizontal*/
+}
+
+#transparente{
+    background: rgba(0,0,0,0.6);
+    padding: 15px;
+    font-size: 1.0em;
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255,255,255,0.5);
+}
+
+#autoria{
+    font-size: 0.7em;
+    color: #000;
+}
+
+
+#home h1{
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0.6em;
+    letter-spacing: -0.05em;
+}
+
+.btn-custom{
+    color: #fff;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s , color 0.4s;
+    padding: 10px 20px ;
+}
+
+.btn-roxo{
+    background: #7c26f8;
+}
+
+.btn-roxo:hover{
+    background: #5b22ac;
+    color: #fff;
+}
+
+.btn-branco{
+    border:2px solid #fff;
+}
+
+.btn-branco:hover{
+    background: #fff;
+    color: #000;
+}
+
+.icone-carousel-prev{
+    padding: 1.2em;
+    margin-right: 4em;
+}
+
+.icone-carousel-next{
+    padding: 1.2em;
+    margin-left: 4em;
+}
+
+/*----------------------------------------------------*/
+
+#conteudos{
+    background: #fff;
+}
+
+#conteudos h2, #conteudos h3{
+    color:#7c25f8 ;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#conteudos h2, #detalhes h2{
+    font-size: 3em;
+}
+
+#conteudos h3, #detalhes h3{
+font-size: 2em;
+}
+
+/*----------------------------------------------------*/
+
+
+#detalhes h2, h3{
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#detalhes h2, #detalhes p{
+    color: #fff;
+}
+
+#detalhes h3{
+    color: #9bf0e1;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+
+/*----------------------------------------------------*/
+
+#rodape{
+    background: #000;
+    position: relative;
+}
+
+#rodape h4{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #919496;;
+}
+
+#rodape li{
+    list-style: none;
+}
+
+#rodape li a {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+#rodape li a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+#logo{
+    border-radius: 20px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------ */
+
+  /*Extra small devices (portrait phones, menor que 576px)*/
+  @media (max-width: 575.98px) {
+   h1{ font-size: 3rem; }
+ 
+    .btn-custom{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    }
+
+    #conteudos{
+        background-size: cover;
+    }
+
+}
+
+  /*Small devices (landscape phones, 576px e maiores)*/
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    h1{ font-size: 3rem;}
+
+    .btn-custom{
+    margin-bottom: 10px;
+        }
+    
+    }
+
+  /*Medium devices (tablets, 768px e maiores)*/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    h1{ font-size: 4rem;
+    }
+}
+
+  /*Large devices (desktops, 992px e maiores)*/
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    h1{ font-size: 5rem;}
+  }
+
+  /*Extra large devices (large desktops, 1200px  e maiores)*/
+  @media (min-width: 1200px) {
+    h1{ font-size: 6rem;}
+  }
+
+  /*------------------------------------------------------------------------------------------------------ */
+
